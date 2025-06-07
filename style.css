@@ -1,0 +1,29 @@
+:root {
+  --color-fondo: white;
+  --color-letra: black;
+  --color-hover: #ff0080;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-letra);
+  transition: all 0.3s;
+}
+
+
+.container__boton {
+    border-radius: 16px;
+    background: var(--color-fondo);
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-style: dotted;
+    border-color: var(--color-letra);  
+    margin-top: 2rem;
+    color: var(--color-letra);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container__boton:hover{
+    background-color: var(--color-hover);
+}
